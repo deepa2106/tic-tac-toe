@@ -3,9 +3,11 @@
 
 
 function buttonClick() {
-  $('td').click(function(){
-    console.log('button clicked');
-  });
+  if(cross === true) {
+    $('td').click(function(){
+      $(this).html('X');
+  })
+  }
 }
 
 // global variables
