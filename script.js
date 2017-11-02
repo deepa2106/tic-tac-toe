@@ -6,6 +6,9 @@ function buttonClick() {
   if(cross === true) {
     $('td').click(function(){
       $(this).html('X');
+      cross = false;
+      nought = true;
+      $('.playerTurn').html('It is O\'s turn');
   })
   }
 }
