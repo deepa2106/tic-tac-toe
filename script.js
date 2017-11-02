@@ -1,7 +1,12 @@
 
+// function for when button is clicked
 
-$('td').click(function(){
 
-	console.log('button clicked');
+function buttonClick() {
+  $('td').click(function(){
+    console.log('button clicked');
+  });
+}
 
-});
+var cross = true;
+var nought = false;
