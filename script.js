@@ -8,5 +8,14 @@ function buttonClick() {
   });
 }
 
+// global variables
 var cross = true;
 var nought = false;
+
+
+// function to start game
+function beginGame() {
+  buttonClick();
+}
+
+beginGame();
